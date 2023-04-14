@@ -17,7 +17,7 @@ pipeline {
         
         stage ("plan") {
             steps {
-                sh ('terraform plan -lock=false') 
+                sh ('terraform plan -lock=false' && 'terraform plan -out' )  
             }
         }
 
