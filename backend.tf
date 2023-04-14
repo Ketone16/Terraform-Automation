@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "mydev-tf-state-bucket-5"
+    bucket = "mydev-tf-state-bucket-4"
      encrypt = true
     key = "main"
     region = "ap-south-1"
